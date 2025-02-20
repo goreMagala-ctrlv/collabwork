@@ -10,9 +10,194 @@ body {
 }
 
 .page-wrapper {
-  margin: 2rem;
+  width: 85%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
+  margin: 5rem;
+}
+
+.featured-plans {
+  margin-top: 40px;
+}
+
+.explore-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.explore-container h2 {
+  font-size: 22px;
+}
+
+.explore-all {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.plans-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  width: 220px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  color: black;
+  position: relative;
+}
+
+.card h3 {
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: gray;
+}
+
+.card span {
+  display: block;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+.card strong {
+  font-size: 20px;
+  display: block;
+  margin-top: 5px;
+}
+
+.card-btn1 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.card-btn1:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: 0.3s;
+  background-color: gray;
+}
+
+.card-btn2 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(255, 255, 255);
+  border: 1px none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.card-btn2:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: 0.3s;
+  background-color: gray;
+}
+.card-btn3 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.card-btn3:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: 0.3s;
+  background-color: gray;
+}
+.card-btn4 {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  border: 1px none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+.card-btn4:hover {
+  cursor: pointer;
+  scale: 1.05;
+  transition: 0.3s;
+  background-color: gray;
+}
+
+.green {
+  background-color: rgb(168, 240, 198);
+}
+
+.black {
+  background-color: rgb(27, 27, 27);
+  color: white;
+}
+
+.purple {
+  background-color: rgb(224, 194, 252);
+}
+
+.yellow {
+  background-color: rgb(253, 245, 166);
+}
+
+.separator {
+  width: 100%;
+  height: 2px;
+  background-color: rgb(224, 224, 224);
+  margin: 30px 0;
+}
+
+.bottom-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.next-btn {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.next-btn:hover {
+  background-color: gray;
+  cursor: pointer;
+  transition: 0.3s;
+  scale: 1.05;
 }
