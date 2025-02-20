@@ -8,3 +8,11 @@ body {
   margin: 0;
   background-color: rgb(228, 228, 228);
 }
+
+.page-wrapper {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
