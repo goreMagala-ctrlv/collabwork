@@ -7,20 +7,31 @@
 body {
   margin: 0;
   background-color: rgb(228, 228, 228);
+  display: flex;
+  justify-content: center;
 }
-
+.tevas {
+  width: 150vh;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem;
+  padding: 5rem;
+}
 .page-wrapper {
   width: 85%;
   height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   background-color: white;
-  margin: 5rem;
 }
 
 .featured-plans {
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .explore-container {
@@ -200,7 +211,6 @@ body {
   cursor: pointer;
   transition: 0.3s;
   scale: 1.05;
-  padding: 0rem 3rem;
 }
 
 header {
@@ -236,8 +246,8 @@ header {
 }
 
 .header-left {
-  display: flex;
-  gap: 1rem;
+  /* display: flex;
+  gap: 1rem; */
 }
 
 .logo {
@@ -257,12 +267,12 @@ header {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  width: 50%;
+  width: 100%;
   text-align: center;
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 h2 {
@@ -290,8 +300,12 @@ input {
   padding: 1rem 1rem;
   background-color: black;
   color: white;
+  transition: 0.3s;
 }
 
 button:hover {
   cursor: pointer;
+  background-color: gray;
+  transition: 0.3s;
+  scale: 1.05;
 }
